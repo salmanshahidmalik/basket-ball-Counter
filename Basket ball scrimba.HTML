@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="scrimba.css">
+    </head>
+    <body>
+        <h1 class="t">GAME POINTS COUNTER</h1>
+        <hr>
+        <div class="container">
+            
+            <div>
+                <h3>HOME</h3>
+                <div class="b">
+                <p id="value-1" class="dis">0</p></div>
+                <Button id="add1" class="btn" onclick="one()">+1</Button>
+                <Button id="add2" class="btn" onclick="two()">+2</Button>
+                <Button id="add3" class="btn" onclick="three()">+3</Button>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <div class="b">
+                <p id="value-2" class="dis">  0</p>
+                </div>
+                <Button id="add1" class="btn"onclick="one1()">+1</Button>
+                <Button id="add2"class="btn" onclick="two2()">+2</Button>
+                <Button id="add3"class="btn" onclick="three3()">+3</Button>
+            </div>
+        </div>
+        <hr>
+        <div class="snd">
+            <button class="reset" onclick="reset()">RESET</button>
+            <button class="save" onclick="save()">SAVE</button>
+        </div>
+        <div class="rec">
+        <p id="saver"> Records For Home: </p>
+        <p id="saver1"> Records For Guest: </p>
+    </div>
+        <script src="basketball.js"></script>
+    </body>
+</html>
