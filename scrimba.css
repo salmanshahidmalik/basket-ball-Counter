@@ -6,6 +6,7 @@
 body {
     margin: 0;
     background-color: rgb(27, 36, 74);
+    background: linear-gradient(rgb(27, 36, 74), black);
 }
 
 .container {
@@ -87,4 +88,11 @@ hr
     font-family: sal;
     padding: 10px;
     justify-content: space-between;
+}
+
+#add1:hover,
+#add2:hover,
+#add3:hover{
+        background-color: blue;
+        color: red;
 }
